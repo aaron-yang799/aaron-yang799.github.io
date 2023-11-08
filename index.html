@@ -7,6 +7,29 @@
     <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-    <h1 data-value="aypz.me">aypz.me</h1>
+    <h1 data-value="Aaron Yang">Aaron</h1>
+
+    <div class="tab">
+        <button class="tablinks nav-button" onclick="openSection(event, 'who-section')">Who</button>
+        <button class="tablinks nav-button" onclick="openSection(event, 'what-section')">What</button>
+        <button class="tablinks nav-button" onclick="openSection(event, 'why-section')">Why</button>
+    </div>
+
+    <div id="who-section" class="tabcontent">
+        <h2>Who</h2>
+        <p>This is the Who tab.</p>
+    </div>
+
+    <div id="what-section" class="tabcontent">
+        <h2>What</h2>
+        <p>This is the What tab.</p>
+    </div>
+      
+    <div id="why-section" class="tabcontent">
+        <h2>Why</h2>
+        <p>This is the Why tab.</p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
