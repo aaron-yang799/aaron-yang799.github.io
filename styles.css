@@ -80,7 +80,7 @@ h2{
     display: none;
 }
 
-#who-section{
+#about-section{
     font-family: 'Roboto Mono', monospace;    z-index: 0;
     padding-top: 5px;
     width: 900px;
@@ -93,7 +93,7 @@ h2{
     font-size: 25px;
 }
 
-#what-section{
+#projects-section{
     font-family: 'Roboto Mono', monospace;    z-index: 0;
     padding-top: 5px;
     width: 900px;
@@ -119,19 +119,19 @@ h2{
     font-size: 25px;
 }
 
-#who-section p{
+#about-section p{
     cursor: default;
     padding-left: 49px;
     font-size: 20px;
 }
 
-#why-section p{
+#projects-section p{
     padding-right: 50px;
     padding-left: 50px;
     font-size: 20px;
 }
 
-#what-section p{
+#why-section p{
     padding-right: 50px;
     padding-left: 50px;
     font-size: 20px;
