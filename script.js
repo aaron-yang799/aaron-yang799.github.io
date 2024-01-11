@@ -24,4 +24,4 @@ function openSection(evt, sectionName) {
     }
 }
 
-document.addEventListener('DOMContentLoaded', () => openSection(null, 'who-section'));
+document.addEventListener('DOMContentLoaded', () => openSection(null, 'about-section'));
