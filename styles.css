@@ -14,14 +14,10 @@ h1 {
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     font-size: 50px;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typing 1.6s ease-out forwards;
-    padding-left: 0px;
+    margin-bottom: 20px;
 }
   
 .tab {
-    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
@@ -37,6 +33,7 @@ button {
     color: #000000;
     width: 20%;
     align-items: center;
+    font-weight: bold;
 }
 
 .tab #middle-button{
@@ -95,25 +92,37 @@ section p{
     section{
         width: 60%;
         height: 75%;
+        font-size: 20px;
     }
 
     button{
         width: 20%;
-        font-size: 20px;
-    }
-} 
-
-@media screen and (max-width: 1200px){
-    
-    button{
         font-size: 18px;
     }
 
-    section{
-        font-size: 20px;
+    h2{
+        font-variant-numeric: 30px;
     }
 
-    h2{
-        font-size: 30px;
+} 
+
+@media screen and (max-width: 1050px){
+    
+    .tab button{
+        width: 60%;
     }
+
+    .tab #middle-button{
+        border-left: none;
+        border-right: none;
+        border-bottom: 3px solid rgb(22, 23, 24);
+        border-top:3px solid rgb(22, 23, 24);
+    }
+
+    .tab{
+        display: block;
+        text-align: center;
+    }
+
+
 }
