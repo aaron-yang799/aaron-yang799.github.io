@@ -16,6 +16,30 @@ h1 {
     font-size: 50px;
     margin-bottom: 20px;
 }
+
+.links{
+    text-align: center;
+    white-space: nowrap;
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+.links li{
+    display: inline-block;
+    width: 2.25%;
+    margin: -10px 10px;
+    margin-bottom: 13px;
+}
+
+.links li img{
+    max-width: 100%;
+    padding: 2px;
+    border-radius: 7px;
+}
+
+.links li img:hover{
+    background-color: #20293f;
+}
   
 .tab {
     display: flex;
